@@ -44,7 +44,7 @@ export function Hero() {
             Nigeria&apos;s Premier Automotive Platform
           </span>
 
-          <h1 className="mt-6 text-5xl font-black leading-[84.75px] tracking-[-2.83px] text-[#1C2B4A] sm:text-[81.49px] ">
+          <h1 className="mt-6 text-5xl font-black leading-16 md:leading-[84.75px] tracking-[-2.83px] text-[#1C2B4A] sm:text-[81.49px] ">
             Drive Bold.
             <br />
             Buy <span className="text-gold-500">Secured.</span>
@@ -96,7 +96,7 @@ export function Hero() {
 
         {/* Right: featured vehicle mockup */}
         <ScrollReveal
-          className="relative mx-auto w-full max-w-md lg:mx-0 lg:ml-auto"
+          className="relative mx-auto w-full max-w-md lg:mx-0 lg:ml-auto md:space-y-0 space-y-5"
           delay={140}
           variant="fade-left"
         >
@@ -107,7 +107,7 @@ export function Hero() {
                 <Check className="h-4 w-4 text-white" strokeWidth={3.5} />
               </span>
             </div>
-            <div className="leading-tight">
+            <div className="leading-tight ">
               <p className="text-[12px] font-semibold text-[#6B7A9A]">
                 Supplier Status
               </p>
