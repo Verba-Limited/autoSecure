@@ -15,7 +15,7 @@ export default function NewCarsPage() {
   return (
     <>
       <Header />
-      <main className="bg-white px-6 pb-24 pt-14 lg:px-8">
+      <main className="bg-white px-6 pb-24 pt-14 lg:px-16">
         <div className="mx-auto max-w-[1210px]">
           <nav className="text-[13px] font-black text-[#8CA0C0]">
             <Link href="/" className="hover:text-navy-900/70">
